@@ -4,3 +4,12 @@ import phonenumbers
 
 "For sending Emails"
 import smtplib
+
+"For Screen Recording"
+import opencv-python  ==> import cv2
+import pywin32
+import numpy
+import pyautogui
+
+"For whatsapp message"
+import pywhatkit
