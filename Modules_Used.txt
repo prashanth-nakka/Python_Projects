@@ -1,0 +1,6 @@
+"For Phone Numbers Details"
+import phonenumbers
+    - from phonenumbers import timezone, geocoder, carrier
+
+"For sending Emails"
+import smtplib
