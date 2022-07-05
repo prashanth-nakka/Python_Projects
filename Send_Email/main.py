@@ -4,7 +4,7 @@ ob = sm.SMTP('smtp.gamil.com', 535)  # port of gmail = 587
 
 ob.ehlo()
 ob.starttls()
-ob.login('prashanth041997@gmail.com', 'Tooni@1997')
+ob.login('prashanth041997@gmail.com', 'password')
 subject = "Test Python"
 body = "I love Python"
 msg = "subject: {}\n\n{}".format(subject, body)
@@ -16,5 +16,4 @@ ob.sendmail('prashanth041997@gmail.com', listadd, msg)
 print("Mail Sent Successfully!")
 
 # To Close Server
-
 ob.quit()
